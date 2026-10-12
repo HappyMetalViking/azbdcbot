@@ -1,0 +1,12 @@
+{
+  "name": "warera-discord-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "start": "node --env-file=.env src/server.mjs",
+    "register": "node --env-file=.env src/register.mjs",
+    "test": "node --test"
+  }
+}
